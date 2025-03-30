@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en"  data-theme ="lightS">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PH-TUBE</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav class="w-11/12 mx-auto py-2 flex py-3 justify-between items-center border-b">
+        <nav class="w-11/12 mx-auto py-2 flex justify-between items-center border-b">
 <div class="logo w-[100px]">
     <img src="assets/Logo.png" alt="">
 </div>
@@ -23,6 +24,12 @@
 </div>
 <div class="sort"><button class="btn btn-error">Sort</button>
 </div>
-    </nav></header>
+    </nav>
+</header>
+
+<nav id="categories" class="py-3 flex gap-5 justify-center">
+
+</nav>
+    <script src="script/video.js"></script>
 </body>
 </html>
